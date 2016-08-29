@@ -17,7 +17,7 @@ export default class SerializerRegistry {
   }
 
   normalize(payload, modelName) {
-    return this.serializerFor(modelName).normalize(payload);
+    return this.serializerFor(modelName).normalize(payload, modelName);
   }
 
   serialize(response, request) {

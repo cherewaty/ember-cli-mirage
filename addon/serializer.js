@@ -162,7 +162,7 @@ class Serializer {
    * @param json
    * @public
    */
-  normalize(json) {
+  normalize(json, modelName) {
     return json;
   }
 
